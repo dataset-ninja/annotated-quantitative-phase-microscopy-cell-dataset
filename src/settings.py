@@ -16,7 +16,7 @@ from dataset_tools.templates import (
 PROJECT_NAME: str = "Annotated Quantitative Phase Microscopy Cell"
 PROJECT_NAME_FULL: str = "Annotated Quantitative Phase Microscopy Cell Dataset of Various Adherent Cell Lines for Segmentation Purposes"
 
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
