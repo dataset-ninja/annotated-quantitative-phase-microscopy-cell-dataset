@@ -57,7 +57,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = "https://opg.optica.org/boe/fulltext.cfm?uri=boe-12-10-6514&id=459853"
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = "https://github.com/tomasvicar/Deep-QPI-Cell-Segmentation"
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https://github.com/tomasvicar/Deep-QPI-Cell-Segmentation"}
 
 CITATION_URL: Optional[str] = "https://zenodo.org/record/5153251#.YlAixn9Bzmg"
 AUTHORS: Optional[List[str]] = ["Tomas Vicar", "Jiri Chmelik", "Roman Jakubicek", "Larisa Chmelikova", "Jaromir Gumulec", "Jan Balvan", "Ivo Provaznik", "Radim Kolar"]
