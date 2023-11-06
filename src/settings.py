@@ -25,7 +25,7 @@ LICENSE: License = License.CC_BY_4_0()
 APPLICATIONS: List[Industry] = [Research.Biomedical()]
 CATEGORY = Category.Biology(extra=Category.Medical())
 
-CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(),  CVTask.SemanticSegmentation(), CVTask.ObjectDetection()]
+CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation(), CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
 RELEASE_DATE: Optional[str] = "2021-05-19"  # e.g. "YYYY-MM-DD"
@@ -61,6 +61,7 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https:/
 
 CITATION_URL: Optional[str] = "https://zenodo.org/record/5153251#.YlAixn9Bzmg"
 AUTHORS: Optional[List[str]] = ["Tomas Vicar", "Jiri Chmelik", "Roman Jakubicek", "Larisa Chmelikova", "Jaromir Gumulec", "Jan Balvan", "Ivo Provaznik", "Radim Kolar"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["kolarr@vutbr.cz"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "Brno University of Technology, Czech Republic",
@@ -120,6 +121,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
