@@ -1,4 +1,4 @@
-**Annotated Quantitative Phase Microscopy Cell Dataset of Various Adherent Cell Lines for Segmentation Purposes** is a dataset for instance segmentation, semantic segmentation, and object detection tasks. It is used in the biomedical research. 
+**Annotated Quantitative Phase Microscopy Cell Dataset of Various Adherent Cell Lines for Segmentation Purposes** is a dataset for instance segmentation, semantic segmentation, object detection, and self supervised learning tasks. It is used in the biomedical research. 
 
 The dataset consists of 2349 images with 21422 labeled objects belonging to 5 different classes including *PC-3*, *PNT1A*, *HOB*, and other: *A2058* and *G361*.
 
