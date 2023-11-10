@@ -25,7 +25,7 @@ LICENSE: License = License.CC_BY_4_0()
 APPLICATIONS: List[Industry] = [Research.Biomedical()]
 CATEGORY = Category.Biology(extra=Category.Medical())
 
-CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation(), CVTask.ObjectDetection()]
+CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation(), CVTask.ObjectDetection(), CVTask.SelfSupervisedLearning()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
 RELEASE_DATE: Optional[str] = "2021-05-19"  # e.g. "YYYY-MM-DD"
