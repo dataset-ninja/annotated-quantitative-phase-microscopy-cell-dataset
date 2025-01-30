@@ -1,6 +1,6 @@
 Dataset **Annotated Quantitative Phase Microscopy Cell** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/hn87fbvf9ff4sembvz1ml/annotated-quantitative-phase-microscopy-cell-DatasetNinja.tar?rlkey=klxvu5nky4nox2c4w11icq01r&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzIzMzhfQW5ub3RhdGVkIFF1YW50aXRhdGl2ZSBQaGFzZSBNaWNyb3Njb3B5IENlbGwvYW5ub3RhdGVkLXF1YW50aXRhdGl2ZS1waGFzZS1taWNyb3Njb3B5LWNlbGwtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiTXFpYUpmcEsvcWVNQlpNSnBhb09WWWovOHpaSlRwWnppdzIxZHRxTHREUT0ifQ==)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
